@@ -1,5 +1,5 @@
 # Build your say_hello method here
-def say_hello(name)
+def say_hello(name= "friend")
   puts "Hello #{name}!"
 end
-say_hello("Sophie")
+say_hello
